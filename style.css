@@ -1,0 +1,92 @@
+
+body {
+    font-family: Kumbh Sans, sans-serif;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -300px -450px, 650px 400px;
+    overflow: hidden;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.img-box {
+    margin-bottom: 80px;
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+}
+
+.img-profile {
+    position: relative;
+    top: 100px;
+    border: 5px solid aliceblue;
+    border-radius: 50%;
+}
+
+
+.card {
+    text-align: center;
+    background-color: aliceblue;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.row-1 {
+    line-height: .75;
+    margin-bottom: 25px;
+}
+
+
+.row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: .25;
+    margin: 10px 20px;
+    
+}
+
+.col {
+    text-align: center;
+    padding: 10px 2rem;
+}
+
+.number {
+    font-weight: 700;
+
+}
+
+.label {
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+    word-spacing: x; 
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#name {
+    font-weight: 700;
+}
+
+
+#age, #location{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
